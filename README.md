@@ -14,7 +14,6 @@ Run requirements.txt to install all necessary packages API.
         "state":"Maharashtra",
         "country":"India",
         "pincode":"400104"
-    
     }
 
 2. User Login: 
