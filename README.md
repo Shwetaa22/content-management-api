@@ -26,6 +26,7 @@ Run requirements.txt to install all necessary packages API.
 3. To create Author Content :
     method : POST,
     url : "http://127.0.0.1:8000/api/content/create",
+    headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNod2V0YUBnbWFpbC5jb20iLCJleHAiOjE2MDg4OTkzNDYsImVtYWlsX2lkIjoic2h3ZXRhQGdtYWlsLmNvbSJ9.W5tLpyr2eHZbHh7-VlTbBSoqMxlqdI3B0iLYLbmklMo"}
     data : {
         "title":"Title Nnew",
         "body" :"",
@@ -37,6 +38,7 @@ Run requirements.txt to install all necessary packages API.
 4.To update author content :
     method : PUT,
     url : "http://127.0.0.1:8000/api/content/1",
+    headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNod2V0YUBnbWFpbC5jb20iLCJleHAiOjE2MDg4OTkzNDYsImVtYWlsX2lkIjoic2h3ZXRhQGdtYWlsLmNvbSJ9.W5tLpyr2eHZbHh7-VlTbBSoqMxlqdI3B0iLYLbmklMo"}
     data : {
         "title":"Title Nnew",
         "body" :"",
@@ -46,15 +48,18 @@ Run requirements.txt to install all necessary packages API.
     }
 
 5.To get data of content: 
+    headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNod2V0YUBnbWFpbC5jb20iLCJleHAiOjE2MDg4OTkzNDYsImVtYWlsX2lkIjoic2h3ZXRhQGdtYWlsLmNvbSJ9.W5tLpyr2eHZbHh7-VlTbBSoqMxlqdI3B0iLYLbmklMo"}
     method : GET 
     url : "http://127.0.0.1:8000/api/content/1"
 
 6. To delete content: 
    method: DELETE 
+   headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNod2V0YUBnbWFpbC5jb20iLCJleHAiOjE2MDg4OTkzNDYsImVtYWlsX2lkIjoic2h3ZXRhQGdtYWlsLmNvbSJ9.W5tLpyr2eHZbHh7-VlTbBSoqMxlqdI3B0iLYLbmklMo"}
    url : "http://127.0.0.1:8000/api/content/1"
 
 7. Search API: 
-   method : GET 
+   method : GET
+   headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2LCJ1c2VybmFtZSI6InNod2V0YUBnbWFpbC5jb20iLCJleHAiOjE2MDg4OTkzNDYsImVtYWlsX2lkIjoic2h3ZXRhQGdtYWlsLmNvbSJ9.W5tLpyr2eHZbHh7-VlTbBSoqMxlqdI3B0iLYLbmklMo"}
    url : "http://127.0.0.1:8000/api/content/content-list?search=asd" 
    
 8. To create admin user:
