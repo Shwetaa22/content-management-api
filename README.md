@@ -8,7 +8,7 @@ Run requirements.txt to install all necessary packages API.
         "full_name":"Shweta Ayre2",
         "email_id" :"shweta2@gmail.com",
         "phone":"1238764434",
-        "password" :"Shweta22",
+        "password" :"",
         "address"  :"ff",
         "city":"Mumbai",
         "state":"Maharashtra",
